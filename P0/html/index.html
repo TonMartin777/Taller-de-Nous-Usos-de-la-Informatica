@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualitzador de MovieLens</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Càrrega de Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Visualitzador de MovieLens</h1>
+    </header>
+    <main>
+        <section id="file-upload-section">
+            <h2>Carregar Dades</h2>
+            <input type="file" id="csv-file-input" accept=".csv">
+            <div id="loading-message" class="hidden">Processant fitxer, si us plau espera...</div>
+            <div id="error-message" class="error hidden"></div>
+        </section>
+
+        <section id="summary-section" class="hidden">
+            <h2>Resum Estadístic</h2>
+            <ul id="summary-list">
+                <!-- Els elements del resum s'inseriran aquí -->
+            </ul>
+        </section>
+
+        <section id="table-section" class="hidden">
+            <h2>Dades</h2>
+            <div class="table-container">
+                <table id="data-table">
+                    <thead>
+                        <!-- Les capçaleres de columna s'inseriran aquí -->
+                    </thead>
+                    <tbody>
+                        <!-- Les files de dades s'inseriran aquí -->
+                    </tbody>
+                </table>
+            </div>
+            <div id="pagination-controls">
+                <!-- Els controls de paginació s'inseriran aquí -->
+            </div>
+        </section>
+
+        <section id="chart-section" class="hidden">
+            <h2>Valoració mitjana per gènere</h2>
+            <canvas id="genre-chart"></canvas>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
+
