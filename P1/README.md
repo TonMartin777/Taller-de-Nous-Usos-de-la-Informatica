@@ -87,7 +87,7 @@ pip install pandas numpy matplotlib jupyter
 ## Ús d'ajuda i d'IA
 
 - Els notebooks inclouen una guia de com trobar ajuda a la documentació oficial de pandas i matplotlib. Feu-la servir.
-- Podeu utilitzar assistents d'IA com a suport per **entendre** conceptes o **desencallar-vos**, però heu de ser capaços d'explicar i defensar **tot** el codi que entregueu. Les reflexions i interpretacions escrites han de ser vostres.
+- Podeu utilitzar assistents d'IA com a suport per **entendre** conceptes o **desencallar-vos**, però heu de ser capaços d'explicar i defensar **tot** el codi que entregueu.
 
 ## Entrega
 
